@@ -1,0 +1,41 @@
+/* Styles for HeroSection component */
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('/images/air-max-infinity-background.jpg') no-repeat center center/cover;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content img {
+  width: 200px;
+  height: auto;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero-content p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background-color: #ddd;
+}

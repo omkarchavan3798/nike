@@ -1,0 +1,21 @@
+/* Styles for Testimonials component */
+#testimonials {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#testimonials blockquote {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+#testimonials cite {
+  font-size: 1em;
+  color: #555;
+}

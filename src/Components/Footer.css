@@ -1,0 +1,22 @@
+/* Styles for Footer component */
+footer {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+footer .social-media a:hover {
+  color: #ddd;
+}
+
+footer p {
+  font-size: 0.875em;
+}

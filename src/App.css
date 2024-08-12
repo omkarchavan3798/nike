@@ -1,0 +1,105 @@
+/* Basic styles for the project */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #7e7b7b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('/images/air-max-infinity-background.jpg') no-repeat center center/cover;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero-content p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+#testimonials {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#testimonials blockquote {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+#testimonials cite {
+  font-size: 1em;
+  color: #555;
+}
+
+#shop {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#shop .color-options img {
+  width: 100px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+footer {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}

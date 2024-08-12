@@ -1,0 +1,80 @@
+/* Styles for ShopSection component */
+#shop {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#shop h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.color-option {
+  cursor: pointer;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.color-option img {
+  width: 80px;
+  height: auto;
+  border: 2px solid transparent;
+}
+
+.color-option.active {
+  transform: scale(1.1); /* Increase size of active color option */
+}
+
+.selected-shoe {
+  margin-top: 2em;
+}
+
+.selected-shoe img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.selected-shoe h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.selected-shoe p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 1em;
+}
+
+/* Styles for ShopSection component */
+
+/* Other styles */
+
+/* styles.css */
+
+.my-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.my-btn:hover {
+  background-color: #0056b3;
+}
+
+.my-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007bff; /* Example of a focus outline */
+}
